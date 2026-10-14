@@ -34,7 +34,7 @@ ReLU activations are used in the hidden layers and a sigmoid output is used beca
 
 Training uses Adam with a learning rate of `1e-3`, mean-squared reconstruction loss and 30 epochs. The best saved validation loss in the submitted run was **0.004652**.
 
-![Training and validation loss](figures/training_loss_plot.png)
+![Training and validation loss](figures/training_loss_plot.jpg)
 
 ## Anomaly score
 
@@ -48,7 +48,7 @@ The same score is evaluated for the held-out SM test sample and nine BSM benchma
 
 ## ROC performance
 
-![Combined ROC curves](figures/roc_curves_combined.png)
+![Combined ROC curves](figures/roc_curves_combined.jpg)
 
 The response is strongly signal-dependent:
 
@@ -72,15 +72,15 @@ That spread in AUC is an important result: a background-trained autoencoder does
 
 ### Strong separation: gluino benchmark
 
-![SM versus gluino anomaly score](figures/anomaly_scores/anomaly_histogram_gluino_1000.0_neutralino_1.0.png)
+![SM versus gluino anomaly score](figures/anomaly_scores/anomaly_histogram_gluino.jpg)
 
 ### Strong separation: stlp benchmark
 
-![SM versus stlp anomaly score](figures/anomaly_scores/anomaly_histogram_stlp_st1000.png)
+![SM versus stlp anomaly score](figures/anomaly_scores/anomaly_histogram_stlp.jpg)
 
 ### Moderate separation: chacha benchmark
 
-![SM versus chacha anomaly score](figures/anomaly_scores/anomaly_histogram_chacha_cha600_neut200.png)
+![SM versus chacha anomaly score](figures/anomaly_scores/anomaly_histogram_chacha_cha600_neut200.jpg)
 
 ## Repository structure
 
@@ -113,7 +113,7 @@ The notebook documents the preprocessing pipeline and expected file names. The t
 
 ## Tools
 
-Python · PyTorch · NumPy · pandas · scikit-learn · Matplotlib · iminuit
+Python · PyTorch · NumPy · pandas · scikit-learn · Matplotlib · tqdm
 
 ## Project context
 
