@@ -1,0 +1,10 @@
+sample,events,roc_auc
+pp23mt_50,3402,0.489644
+pp24mt_50,8499,0.621391
+stlp_st1000,13626,0.957362
+chacha_cha400_neut60,849,0.636405
+chacha_cha300_neut140,665,0.556596
+chaneut_cha200_neut50,1513,0.577506
+chaneut_cha250_neut150,1376,0.569680
+chacha_cha600_neut200,1205,0.678930
+gluino_1000.0_neutralino_1.0,58541,0.981832
