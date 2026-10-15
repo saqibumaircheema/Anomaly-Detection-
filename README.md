@@ -143,3 +143,9 @@ Python · PyTorch · NumPy · pandas · scikit-learn · Matplotlib · tqdm
 ## Project context
 
 Completed as a particle-physics data-analysis and machine-learning project during the MSc Particle and Nuclear Physics programme at the University of Edinburgh.
+
+---
+
+## Research portfolio
+
+This repository is part of my physics research and scientific-computing portfolio. See my [GitHub profile](https://github.com/saqibumaircheema) for related work in detector instrumentation, particle-physics analysis, simulation, statistical inference and scientific machine learning.
